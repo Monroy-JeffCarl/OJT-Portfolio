@@ -14,6 +14,10 @@ app.listen(PORT, () => {
   console.log(`Server is running at port ${PORT}`);
 });
 
+app.get("/documents", (req, res) => {
+  res.status(200).render("pages/documents");
+});
+
 //app.
 //get - getting data from db
 //post - creating new data
