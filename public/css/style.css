@@ -12,3 +12,16 @@ section {
   scroll-margin-top: 70px;
 }
 
+.small-card {
+  max-width: 250px;
+  margin: auto;
+}
+
+.small-card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 10px;
+}
