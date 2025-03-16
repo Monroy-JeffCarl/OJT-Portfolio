@@ -18,6 +18,10 @@ app.get("/documents", (req, res) => {
   res.status(200).render("pages/documents");
 });
 
+app.get("/landing", (req, res) => {
+  res.status(200).render("pages/landing");
+});
+
 //app.
 //get - getting data from db
 //post - creating new data
